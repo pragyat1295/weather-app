@@ -28,7 +28,6 @@ function BasicTable(props) {
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
         <TableBody>
           {rows?.map((row) => {
-            console.log(row);
             return (
               <TableRow
                 key={row?.name}
