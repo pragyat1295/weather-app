@@ -16,7 +16,7 @@ export default function App() {
           <Route
             path="/:id"
             element={
-              <Suspense fallback={<div><CircularProgress color="primary" /></div>}>
+              <Suspense fallback={<div className="loader"><CircularProgress color="primary" /></div>}>
                 <Details />
               </Suspense>
             }
