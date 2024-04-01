@@ -1,0 +1,52 @@
+.topbarContainer {
+    background: #333;
+    margin: 5px;
+    width: 100%;
+    color: white;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+  }
+  
+  .stackNameContainer {
+    align-items: center;
+    padding-bottom: 10px;
+    justify-content: center;
+  }
+  
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .stackIdContainer {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .secondContainer {
+    margin: auto;
+  }
+  
+  .forecastContainer {
+    display: flex;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background: #5e5e5e;
+    box-shadow: 1px 2px #888888;
+    gap: 50px;
+  }
+  
+  .stackIdText {
+    font-size: 12px;
+    margin-right: 5px;
+  }
+  
+  .stackIdValue {
+    font-size: 16px;
+    margin-right: 5px;
+  }
+  
