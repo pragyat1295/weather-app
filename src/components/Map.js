@@ -9,8 +9,8 @@ const LeafIcon = L.Icon.extend({
 
 const blueIcon = new LeafIcon({
   iconUrl:
-    "https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|0000ff&chf=a,s,ee00FFFF",
-  iconSize: [21, 34],
+    "https://icon-library.com/images/google-map-marker-icon/google-map-marker-icon-24.jpg",
+  iconSize: [34, 34],
   iconAnchor: [10, 34],
 });
 

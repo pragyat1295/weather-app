@@ -28,10 +28,10 @@ function Header() {
   return (
     <div className={classes.headerContainer}>
       <div className={classes.center}>
-        <div>
+        <button style={{background: 'none', color: 'white'}} >
           {" "}
           <MenuIcon />{" "}
-        </div>
+        </button>
         <div>Header</div>
       </div>
 
