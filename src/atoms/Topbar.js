@@ -4,54 +4,7 @@ import SidebarDrawer from "../components/SidebarDrawer";
 import WarningAmberIcon from "@mui/icons-material/WarningAmber";
 import ListAltIcon from "@mui/icons-material/ListAlt";
 import EmojiFlagsIcon from "@mui/icons-material/EmojiFlags";
-import { makeStyles } from "@mui/styles";
-
-const useStyles = makeStyles((theme) => ({
-  topbarContainer: {
-    background: "#333",
-    margin: "5px",
-    width: "100%",
-    color: "white",
-    fontFamily: "Roboto, Helvetica, Arial, sans-serif",
-  },
-  stackNameContainer: {
-    alignItems: "center",
-    paddingBottom: "10px",
-    justifyContent: "center",
-  },
-  center: {
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  stackIdContainer: {
-    marginTop: "5px",
-    display: "flex",
-    alignItems: "center",
-    marginLeft: "10px",
-  },
-  secondContainer: {
-    margin: "auto",
-  },
-  forecastContainer: {
-    display: "flex",
-    padding: "5px 10px",
-    border: "1px solid gray",
-    marginRight: "5px",
-    marginBottom: "5px",
-    background: "#5e5e5e",
-    boxShadow: "1px 2px #888888",
-    gap: "50px",
-  },
-  stackIdText: {
-    fontSize: "12px",
-    marginRight: "5px",
-  },
-  stackIdValue: {
-    fontSize: "16px",
-    marginRight: "5px",
-  },
-}));
+import classes from "./atoms.module.css"
 
 const Topbar = (props) => {
   const {
@@ -62,8 +15,6 @@ const Topbar = (props) => {
     handleCityClick = () => {},
     cityData = [],
   } = props;
-
-  const classes = useStyles();
 
   return (
     <>

@@ -1,5 +1,4 @@
-// Product.js
-import React, { useState, memo, useCallback } from "react";
+import React, { useState, memo } from "react";
 import { useParams } from "react-router-dom";
 import { weatherInfo } from "../data/weather_information";
 import PastChartData from "../atoms/PastChartData";

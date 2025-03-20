@@ -1,5 +1,4 @@
 import React, { memo } from "react";
-import { Chart as ChartJS, defaults } from "chart.js/auto";
 import { Line } from "react-chartjs-2";
 import { quarters } from "../data/weather_information";
 

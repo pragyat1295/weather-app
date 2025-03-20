@@ -1,0 +1,32 @@
+ /* CityCards */
+  
+ .cardContainer {
+    white-space: nowrap;
+    overflow-x: auto;
+    position: static;
+    width: 90vw;
+  }
+  
+  .cardContent {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  .headerContainer {
+    display: flex;
+    justify-content: space-between;
+    background: #222;
+    color: #fff;
+    padding: 10px;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    border-radius: 5px;
+  }
+  
+  .center {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  

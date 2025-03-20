@@ -2,28 +2,9 @@ import React, { memo } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import LanguageIcon from "@mui/icons-material/Language";
 import PersonIcon from "@mui/icons-material/Person";
-import { makeStyles } from "@mui/styles";
-
-const useStyles = makeStyles((theme) => ({
-  headerContainer: {
-    display: "flex",
-    justifyContent: "space-between",
-    background: "#222",
-    color: "#fff",
-    padding: "10px",
-    fontFamily: "Roboto, Helvetica, Arial, sans-serif",
-    borderRadius: "5px",
-  },
-  center: {
-    display: "flex",
-    gap: 10,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-}));
+import classes from "./components.module.css";
 
 function Header() {
-  const classes = useStyles();
 
   return (
     <div className={classes.headerContainer}>
