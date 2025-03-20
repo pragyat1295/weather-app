@@ -4,7 +4,7 @@
 ## Project link
 
 you can find this project live demo at:
-[[https://weather-app-tau-three-26.vercel.app/](https://weather-app-mu-six-26.vercel.app/)](https://weather-app-mu-six-26.vercel.app/)
+https://weather-app-mu-six-26.vercel.app/
 
 ## Pages:
 
